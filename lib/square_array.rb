@@ -3,4 +3,6 @@ def square_array(array)
   newArr = []
   while array.length > 0
     newArr.push(array.unshift ** 2)
+  end
+  newArr
 end
